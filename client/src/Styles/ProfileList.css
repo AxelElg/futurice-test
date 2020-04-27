@@ -1,0 +1,40 @@
+.profiles {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin: 1.5rem auto;
+	border-radius: 1rem;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 800px;
+	padding: 0;
+}
+.left {
+	border-radius: 0;
+	height: 210px;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+}
+.right {
+	padding: 1.5rem;
+	text-align: left;
+	width: 100%;
+}
+.remove {
+	font-weight: bold;
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	border-radius: 0.5rem;
+	height: 1rem;
+	background-color: black;
+	color: white;
+	border: none;
+}
+.remove:hover {
+	background-color: rgb(255, 0, 0);
+}
+.list {
+	padding-bottom: 20px;
+}

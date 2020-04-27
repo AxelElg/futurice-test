@@ -1,0 +1,12 @@
+.container {
+	padding: 1rem;
+	width: 100%;
+	height: 100%;
+}
+.place-holder-text {
+	width: 100%;
+	height: 100%;
+	color: gray;
+	line-height: 2rem;
+	padding-top: 35%;
+}

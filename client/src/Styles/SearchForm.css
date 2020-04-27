@@ -1,0 +1,18 @@
+.search-bar {
+	padding: 1rem;
+	font-weight: bold;
+	width: 800px;
+	justify-content: center;
+	margin: 0 auto;
+}
+.search-bar > * {
+	margin: 0 0.5rem;
+}
+input {
+	border: 2px solid black;
+	border-radius: 0.5em;
+	background-color: transparent;
+}
+.sub-button:hover {
+	background-color: gainsboro;
+}
