@@ -18,18 +18,18 @@ if you’ve done all the above steps correctly you should have the application u
 
 ### Frontend
 
-react.js
+- react.js
 
 ### Backend
 
-node.js
-express.js
+- node.js
+- express.js
 
 ### Database
 
-.json file
+- .json file
 
 ## upcoming features:
 
-added logic on the backend to display more personalised text for the user in question based on their github profile.
-add a feature for sharing accumulated profile lists
+- added logic on the backend to display more personalized text for the user in question based on their github profile.
+- add a feature for sharing accumulated profile lists
