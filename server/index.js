@@ -1,18 +1,15 @@
 //testing
 const express = require('express');
 const path = require('path');
-const fs = require('fs');
-const dbDir = './db/profiles.json';
 
+const app = express();
+const PORT = process.env.PORT || 5000;
 const {
 	userRoute,
 	addUserToListRoute,
 	userListRoute,
 	removeUserFromListRoute,
 } = require('./routes');
-
-const app = express();
-const PORT = process.env.PORT || 5000;
 
 app.use(express.static(path.join(__dirname, '../client/build')));
 
